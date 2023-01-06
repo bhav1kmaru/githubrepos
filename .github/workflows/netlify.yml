@@ -4,7 +4,7 @@ name: Development workflow
 # When workflow is triggered
 on:
   push:
-    branches: ["main"]
+    branches: ["master"]
   workflow_dispatch:
 
 # Jobs to carry out
