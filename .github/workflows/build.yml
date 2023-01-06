@@ -1,4 +1,4 @@
-name: Github Action No. 1
+name: Github Action No. 2
 
 on:
   push:
@@ -23,6 +23,8 @@ jobs:
           node-version: "16"
       - name: Install Dependencies
         run: npm ci
+      - name: Build Project
+        run: npm run build
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v1
         with:
