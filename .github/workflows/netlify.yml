@@ -1,5 +1,5 @@
 # Name of workflow
-name: Development workflow
+name: Netlify Deployment Workflow
 
 # When workflow is triggered
 on:
