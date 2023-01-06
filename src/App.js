@@ -25,7 +25,7 @@ function App() {
   },[page,query])
 
   if(loading){
-    return <Center mt='400px'><img src="https://i.ibb.co/dcQJ8RF/1476.gif" alt="1476" border="0" /></Center>
+    return <Center mt='401px'><img src="https://i.ibb.co/dcQJ8RF/1476.gif" alt="1476" border="0" /></Center>
   }
   return (
     <>
